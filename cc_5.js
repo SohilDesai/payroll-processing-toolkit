@@ -51,3 +51,7 @@ function processPayroll(employee) {
     netPay: netPay
   };
 }
+for (let employee of employees) {
+  let payrollReport = processPayroll(employee);
+  console.log(payrollReport);
+}
