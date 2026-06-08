@@ -33,3 +33,6 @@ function calculateOvertimePay(rate, hours) {
 
   return 0;
 }
+function calculateTaxes(grossPay) {
+  return grossPay * 0.15;
+}
