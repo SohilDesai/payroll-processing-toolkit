@@ -21,3 +21,7 @@ let employees = [
     hoursWorked: 40
   }
 ];
+function calculateBasePay(rate, hours) {
+  let regularHours = Math.min(hours, 40);
+  return regularHours * rate;
+}
